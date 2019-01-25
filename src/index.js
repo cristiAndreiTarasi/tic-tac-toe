@@ -76,9 +76,13 @@ const tiles = document.getElementById('board').children;
                 window.location.reload();
             }
             else if(tiles[2].innerText === 'O' && tiles[4].innerText === 'O' && tiles[6].innerText === 'O') {
-                alert('O WOON');
+                alert('O WON');
                 window.location.reload();
             }
         };
+
         //Attach event listener to each div
         tiles[tile].addEventListener('click', loopThroughTiles, false);
+    }
+
+    

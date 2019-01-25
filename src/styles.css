@@ -1,7 +1,7 @@
 #board {
 	width: 150px;
 	height: 150px;
-	border: 1px solid black;
+	border: 1px solid #000;
 
 	display: flex;
 	flex-wrap: wrap;
@@ -40,6 +40,4 @@
 }
 .eight {
 	border-right: 1px solid black;
-}
-.nine {
 }
